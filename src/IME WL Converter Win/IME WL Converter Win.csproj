@@ -37,6 +37,9 @@
         <UseWindowsForms>true</UseWindowsForms>
         <ImportWindowsDesktopTargets>true</ImportWindowsDesktopTargets>
         <Platforms>AnyCPU;x86</Platforms>
+
+        <!-- 允许引用 ImeWlConverterCmd.exe（NETSDK1151 规避，必须放消费方） -->
+        <ValidateExecutableReferencesMatchSelfContained>false</ValidateExecutableReferencesMatchSelfContained>
     </PropertyGroup>
     <PropertyGroup>
         <ManifestCertificateThumbprint>D023E0A7D1F29511E571C5D888823CF5150F5061</ManifestCertificateThumbprint>
